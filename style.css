@@ -37,12 +37,16 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 200vw;
+    height: 230vw;
     background: linear-gradient(to bottom, #14202B, #1A191E);
 }
 
@@ -78,6 +82,12 @@ body {
 .sidebar svg {
     width: 1.5vw;
     fill: #3F3A3A;
+    transition: 1s;
+}
+
+.sidebar svg:hover {
+    width: 2vw;
+    fill: #0097B2;
 }
 
 #avatar {
@@ -207,4 +217,222 @@ body {
     position: absolute;
     top: 116vw;
     left: 65vw;
+}
+
+#proyecto {
+    position: absolute;
+    top: 128vw;
+    left: 37vw;
+    font-family: PoppinsBold;
+    font-size: 4vw;
+    color: white;
+}
+
+#spacex {
+    position: absolute;
+    width: 20vw;
+    top: 140vw;
+    left: 10vw;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw;
+    transition: 1s;
+}
+
+.space h1 {
+    position: absolute;
+    top: 139vw;
+    left: 35vw;
+}
+
+.space p {
+    position: absolute;
+    top: 142vw;
+    left: 35vw;
+}
+
+#campus {
+    position: absolute;
+    width: 20vw;
+    top: 155vw;
+    left: 10vw;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw;
+    transition: 1s;
+}
+
+.campuslands h1 {
+    position: absolute;
+    top: 154vw;
+    left: 35vw;
+}
+
+.campuslands p {
+    position: absolute;
+    top: 157vw;
+    left: 35vw;
+}
+
+#cacao {
+    position: absolute;
+    width: 20vw;
+    top: 170vw;
+    left: 10vw;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw;
+    transition: 1s;
+}
+
+.florCacao h1 {
+    position: absolute;
+    top: 169vw;
+    left: 35vw;
+}
+
+.florCacao p {
+    position: absolute;
+    top: 172vw;
+    left: 35vw;
+}
+
+#universitario {
+    position: absolute;
+    width: 20vw;
+    top: 185vw;
+    left: 10vw;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw;
+    transition: 1s;
+}
+
+.elUniversitario h1 {
+    position: absolute;
+    top: 184vw;
+    left: 35vw;
+}
+
+.elUniversitario p {
+    position: absolute;
+    top: 187vw;
+    left: 35vw;
+}
+
+.projects h1 {
+    font-size: 1.5vw;
+    font-family: PoppinsBold;
+    color: white;
+}
+
+.projects p {
+    font-size: 1vw;
+    font-family: RobotoRegular;
+    color: white;
+}
+
+#spacex:hover, #campus:hover, #cacao:hover, #universitario:hover {
+    width: 21vw;
+}
+
+.languajes1 {
+    position: absolute;
+    display: flex;
+    gap: 1vw;
+    top: 148vw;
+    left: 35vw;
+}
+
+.languajes2 {
+    position: absolute;
+    top: 161.5vw;
+    left: 35vw;
+}
+
+.languajes3 {
+    position: absolute;
+    top: 179vw;
+    left: 35vw;
+}
+
+.languajes4 {
+    position: absolute;
+    top: 191.5vw;
+    left: 35vw;
+}
+
+.javascript, .html5, .css3, .py, .mysql {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    height: 2vw;
+    border: 0.1vw solid white;
+    border-radius: 1vw;
+    color: white;
+    font-family: RobotoLight;
+    font-size: 0.8vw;
+}
+
+#contactame {
+    position: absolute;
+    top: 200vw;
+    left: 10vw;
+    color: white;
+    font-family: RobotoBold;
+    font-size: 2vw;
+}
+
+.tablita {
+    position: absolute;
+    top: 205vw;
+    left: 10vw;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr; 
+    width: 80vw;
+    height: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    gap: 10vw;
+}
+
+.casilla {
+    font-family: RobotoRegular;
+    font-size: 1vw;
+    color: white;
+    border: 0.1vw solid white;
+    padding: 1vw;
+}
+
+.casilla img {
+    width: 3vw;
+}
+
+.casilla a {
+    text-decoration: none;
+    color: white;
+}
+
+#correo {
+    position: absolute;
+    top: 215vw;
+    left: 10vw;
+    font-family: RobotoBold;
+    font-size: 1.5vw;
+    color: white;
+}
+
+#adress {
+    position: absolute;
+    top: 217vw;
+    left: 10vw;
+    font-family: RobotoLight;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    color: white;
+    font-family: RobotoLight;
+    font-size: 0.8vw;
+    left: 37vw;
+    top: 228vw;
 }
