@@ -1,0 +1,210 @@
+@font-face {
+    font-family: RobotoBold;
+    src: url(./font/roboto/RobotoMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url(./font/roboto/RobotoMono-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(./font/roboto/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(./font/roboto/RobotoMono-Light.ttf);
+}
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url(./font/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsBlack;
+    src: url(./font/poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: PoppinsMedium;
+    src: url(./font/poppins/Poppins-Medium.ttf);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200vw;
+    background: linear-gradient(to bottom, #14202B, #1A191E);
+}
+
+#marca {
+    position: absolute;
+    top: 1vw;
+    left: 2vw;
+    font-family: PoppinsMedium;
+    font-size: 2vw;
+    color: white;
+}
+
+#marca span {
+    color: #0097B2;
+}
+
+.sidebar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+    top: 15vw;
+    left: 2vw;
+    width: 3vw;
+    height: 16vw;
+    background-color: #14202B;
+    box-shadow: 0vw 0vw 1vw 1px #0c424b;
+    border-radius: 0.5vw;
+}
+
+.sidebar svg {
+    width: 1.5vw;
+    fill: #3F3A3A;
+}
+
+#avatar {
+    position: absolute;
+    top: 2vw;
+    left: 30vw;
+    width: 40vw;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#nombre {
+    position: absolute;
+    top: 12vw;
+    left: 20vw;
+    font-family: PoppinsBold;
+    font-size: 7vw;
+    font-weight: 600;
+    color: white;
+}
+
+#subtitulo {
+    position: absolute;
+    top: 25vw;
+    left: 30vw;
+    font-family: PoppinsMedium;
+    font-size: 1.5vw;
+    color: white;
+}
+
+#aboutme {
+    position: absolute;
+    top: 50vw;
+    left: 10vw;
+    color: white;
+    font-family: PoppinsBold;
+    font-size: 4vw;
+}
+
+#AboutMe {
+    position: absolute;
+    top: 58vw;
+    left: 10vw;
+    font-family: RobotoMedium;
+    font-size: 1.5vw;
+    color: white;
+}
+
+#cohete {
+    position: absolute;
+    font-size: 15vw;
+    top: 45vw;
+    left: 70vw;
+}
+
+#contecnico {
+    position: absolute;
+    top: 90vw;
+    left: 23vw;
+    color: white;
+    font-family: PoppinsBold;
+    font-size: 4vw;
+}
+
+.tabla {
+    position: absolute;
+    top: 105vw;
+    left: 10vw;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr; 
+    width: 80vw;
+    height: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    gap: 10vw;
+}
+
+.header {
+    font-family: RobotoRegular;
+    font-size: 1vw;
+    color: white;
+    border: 0.1vw solid white;
+    padding: 1vw;
+}
+
+.header span {
+    font-family: RobotoBold;
+    font-size: 1.5vw;
+}
+
+.logos svg {
+    width: 8vw;
+    fill: #3F3A3A;
+}
+
+#java {
+    position: absolute;
+    top: 116vw;
+    left: 6vw;
+}
+
+#python {
+    position: absolute;
+    top: 100vw;
+    left: 25vw;
+}
+
+#html {
+    position: absolute;
+    top: 100vw;
+    left: 55vw;
+}
+
+#css {
+    position: absolute;
+    top: 116vw;
+    left: 36vw;
+}
+
+#post {
+    position: absolute;
+    top: 100vw;
+    left: 85vw;
+}
+
+#js {
+    position: absolute;
+    top: 116vw;
+    left: 65vw;
+}
