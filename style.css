@@ -33,406 +33,2296 @@
     src: url(./font/poppins/Poppins-Medium.ttf);
 }
 
-body {
-    overflow-x: hidden;
+@media (width >= 1441px) and (width <= 1600px) {
+    
+
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #home {
+        min-height: 100vh;
+    }
+
+    #about {
+        min-height: 90vh;
+    }
+
+    #expertise {
+        min-height: 80vh;
+    }
+
+    #projects {
+        min-height: 100vh;
+    }
+
+    #contact {
+        min-height: 20vh;
+    }
+
+    .container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 230vw;
+        background: linear-gradient(to bottom, #14202B, #1A191E);
+    }
+
+    #marca {
+        position: absolute;
+        top: 1vw;
+        left: 2vw;
+        font-family: PoppinsMedium;
+        font-size: 2vw;
+        color: white;
+    }
+
+    #marca span {
+        color: #0097B2;
+    }
+
+    .sidebar {
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1vw;
+        top: 15vw;
+        left: 2vw;
+        width: 3vw;
+        height: 16vw;
+        background-color: #14202B;
+        box-shadow: 0vw 0vw 1vw 1px #0c424b;
+        border-radius: 0.5vw;
+    }
+
+    .sidebar svg {
+        width: 1.5vw;
+        fill: #3F3A3A;
+        transition: 1s;
+    }
+
+    .sidebar svg:hover {
+        width: 2vw;
+        fill: #0097B2;
+    }
+
+    #avatar {
+        position: absolute;
+        top: 2vw;
+        left: 30vw;
+        width: 40vw;
+        opacity: 0.5;
+        z-index: 1;
+    }
+
+    #nombre {
+        position: absolute;
+        top: 12vw;
+        left: 20vw;
+        font-family: PoppinsBold;
+        font-size: 7vw;
+        font-weight: 600;
+        color: white;
+    }
+
+    #subtitulo {
+        position: absolute;
+        top: 25vw;
+        left: 30vw;
+        font-family: PoppinsMedium;
+        font-size: 1.5vw;
+        color: white;
+    }
+
+    #aboutme {
+        position: absolute;
+        top: 50vw;
+        left: 10vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 4vw;
+    }
+
+    #AboutMe {
+        position: absolute;
+        top: 58vw;
+        left: 10vw;
+        font-family: RobotoMedium;
+        font-size: 1.5vw;
+        color: white;
+    }
+
+    #cohete {
+        position: absolute;
+        font-size: 15vw;
+        top: 45vw;
+        left: 70vw;
+    }
+
+    #contecnico {
+        position: absolute;
+        top: 90vw;
+        left: 23vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 4vw;
+    }
+
+    .tabla {
+        position: absolute;
+        top: 105vw;
+        left: 10vw;
+        display: grid;
+        grid-template-columns: 5fr 5fr 5fr; 
+        width: 80vw;
+        height: auto;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
+
+    .header {
+        font-family: RobotoRegular;
+        font-size: 1vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
+
+    .header span {
+        font-family: RobotoBold;
+        font-size: 1.5vw;
+    }
+
+    .logos svg {
+        width: 8vw;
+        fill: #3F3A3A;
+    }
+
+    #java {
+        position: absolute;
+        top: 116vw;
+        left: 6vw;
+    }
+
+    #python {
+        position: absolute;
+        top: 100vw;
+        left: 25vw;
+    }
+
+    #html {
+        position: absolute;
+        top: 100vw;
+        left: 55vw;
+    }
+
+    #css {
+        position: absolute;
+        top: 116vw;
+        left: 36vw;
+    }
+
+    #post {
+        position: absolute;
+        top: 100vw;
+        left: 85vw;
+    }
+
+    #js {
+        position: absolute;
+        top: 116vw;
+        left: 65vw;
+    }
+
+    #proyecto {
+        position: absolute;
+        top: 128vw;
+        left: 37vw;
+        font-family: PoppinsBold;
+        font-size: 4vw;
+        color: white;
+    }
+
+    #spacex {
+        position: absolute;
+        width: 20vw;
+        top: 140vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .space h1 {
+        position: absolute;
+        top: 139vw;
+        left: 35vw;
+    }
+
+    .space p {
+        position: absolute;
+        top: 142vw;
+        left: 35vw;
+    }
+
+    #campus {
+        position: absolute;
+        width: 20vw;
+        top: 155vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .campuslands h1 {
+        position: absolute;
+        top: 154vw;
+        left: 35vw;
+    }
+
+    .campuslands p {
+        position: absolute;
+        top: 157vw;
+        left: 35vw;
+    }
+
+    #cacao {
+        position: absolute;
+        width: 20vw;
+        top: 170vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .florCacao h1 {
+        position: absolute;
+        top: 169vw;
+        left: 35vw;
+    }
+
+    .florCacao p {
+        position: absolute;
+        top: 172vw;
+        left: 35vw;
+    }
+
+    #universitario {
+        position: absolute;
+        width: 20vw;
+        top: 185vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .elUniversitario h1 {
+        position: absolute;
+        top: 184vw;
+        left: 35vw;
+    }
+
+    .elUniversitario p {
+        position: absolute;
+        top: 187vw;
+        left: 35vw;
+    }
+
+    .projects h1 {
+        font-size: 1.5vw;
+        font-family: PoppinsBold;
+        color: white;
+    }
+
+    .projects p {
+        font-size: 1vw;
+        font-family: RobotoRegular;
+        color: white;
+    }
+
+    #spacex:hover, #campus:hover, #cacao:hover, #universitario:hover {
+        width: 21vw;
+    }
+
+    .languajes1 {
+        position: absolute;
+        display: flex;
+        gap: 1vw;
+        top: 148vw;
+        left: 35vw;
+    }
+
+    .languajes2 {
+        position: absolute;
+        top: 161.5vw;
+        left: 35vw;
+    }
+
+    .languajes3 {
+        position: absolute;
+        top: 179vw;
+        left: 35vw;
+    }
+
+    .languajes4 {
+        position: absolute;
+        top: 191.5vw;
+        left: 35vw;
+    }
+
+    .javascript, .html5, .css3, .py, .mysql {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6vw;
+        height: 2vw;
+        border: 0.1vw solid white;
+        border-radius: 1vw;
+        color: white;
+        font-family: RobotoLight;
+        font-size: 0.8vw;
+    }
+
+    #contactame {
+        position: absolute;
+        top: 200vw;
+        left: 10vw;
+        color: white;
+        font-family: RobotoBold;
+        font-size: 2vw;
+    }
+
+    .tablita {
+        position: absolute;
+        top: 205vw;
+        left: 10vw;
+        display: grid;
+        grid-template-columns: 5fr 5fr 5fr; 
+        width: 80vw;
+        height: auto;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
+
+    .casilla {
+        font-family: RobotoRegular;
+        font-size: 1vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
+
+    .casilla:hover {
+        background-color: #0097B2;
+    }
+
+    .casilla img {
+        width: 3vw;
+    }
+
+    .casilla a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #correo {
+        position: absolute;
+        top: 215vw;
+        left: 10vw;
+        font-family: RobotoBold;
+        font-size: 1.5vw;
+        color: white;
+    }
+
+    #adress {
+        position: absolute;
+        top: 217vw;
+        left: 10vw;
+        font-family: RobotoLight;
+        font-size: 1.5vw;
+        color: white;
+    }
+
+    .footer {
+        position: absolute;
+        color: white;
+        font-family: RobotoLight;
+        font-size: 0.8vw;
+        left: 37vw;
+        top: 228vw;
+    }
 }
 
-html {
-    scroll-behavior: smooth;
+@media (width >= 1281px) and (width <= 1440px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #home {
+        min-height: 100vh;
+    }
+
+    #about {
+        min-height: 90vh;
+    }
+
+    #expertise {
+        min-height: 80vh;
+    }
+
+    #projects {
+        min-height: 100vh;
+    }
+
+    #contact {
+        min-height: 20vh;
+    }
+
+    .container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 240vw;
+        background: linear-gradient(to bottom, #14202B, #1A191E);
+    }
+
+    #marca {
+        position: absolute;
+        top: 1vw;
+        left: 2vw;
+        font-family: PoppinsMedium;
+        font-size: 2vw;
+        color: white;
+    }
+
+    #marca span {
+        color: #0097B2;
+    }
+
+    .sidebar {
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1vw;
+        top: 20vw;
+        left: 2vw;
+        width: 4vw;
+        height: 20vw;
+        background-color: #14202B;
+        box-shadow: 0vw 0vw 1vw 1px #0c424b;
+        border-radius: 0.5vw;
+    }
+
+    .sidebar svg {
+        width: 2.5vw;
+        fill: #3F3A3A;
+        transition: 1s;
+    }
+
+    .sidebar svg:hover {
+        width: 3vw;
+        fill: #0097B2;
+    }
+
+    #avatar {
+        position: absolute;
+        top: 6vw;
+        left: 26vw;
+        width: 50vw;
+        opacity: 0.5;
+        z-index: 1;
+    }
+
+    #nombre {
+        position: absolute;
+        top: 18vw;
+        left: 17vw;
+        font-family: PoppinsBold;
+        font-size: 8vw;
+        font-weight: 600;
+        color: white;
+    }
+
+    #subtitulo {
+        position: absolute;
+        top: 33vw;
+        left: 28vw;
+        font-family: PoppinsMedium;
+        font-size: 1.7vw;
+        color: white;
+    }
+
+    #aboutme {
+        position: absolute;
+        top: 60vw;
+        left: 10vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 4vw;
+    }
+
+    #AboutMe {
+        position: absolute;
+        top: 69vw;
+        left: 10vw;
+        font-family: RobotoMedium;
+        font-size: 1.5vw;
+        color: white;
+    }
+
+    #cohete {
+        position: absolute;
+        font-size: 18vw;
+        top: 48vw;
+        left: 70vw;
+    }
+
+    #contecnico {
+        position: absolute;
+        top: 100vw;
+        left: 23vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 4vw;
+    }
+
+    .tabla {
+        position: absolute;
+        top: 115vw;
+        left: 10vw;
+        display: grid;
+        grid-template-columns: 5fr 5fr 5fr; 
+        width: 80vw;
+        height: auto;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
+
+    .header {
+        font-family: RobotoRegular;
+        font-size: 1vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
+
+    .header span {
+        font-family: RobotoBold;
+        font-size: 1.5vw;
+    }
+
+    .logos svg {
+        width: 7vw;
+        fill: #3F3A3A;
+    }
+
+    #java {
+        position: absolute;
+        top: 126vw;
+        left: 6vw;
+    }
+
+    #python {
+        position: absolute;
+        top: 110vw;
+        left: 26vw;
+    }
+
+    #html {
+        position: absolute;
+        top: 110vw;
+        left: 56vw;
+    }
+
+    #css {
+        position: absolute;
+        top: 126vw;
+        left: 36vw;
+    }
+
+    #post {
+        position: absolute;
+        top: 110vw;
+        left: 86vw;
+    }
+
+    #js {
+        position: absolute;
+        top: 126vw;
+        left: 66vw;
+    }
+
+    #proyecto {
+        position: absolute;
+        top: 138vw;
+        left: 40vw;
+        font-family: PoppinsBold;
+        font-size: 4vw;
+        color: white;
+    }
+
+    #spacex {
+        position: absolute;
+        width: 20vw;
+        top: 150vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .space h1 {
+        position: absolute;
+        top: 149vw;
+        left: 35vw;
+    }
+
+    .space p {
+        position: absolute;
+        top: 152vw;
+        left: 35vw;
+    }
+
+    #campus {
+        position: absolute;
+        width: 20vw;
+        top: 165vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .campuslands h1 {
+        position: absolute;
+        top: 164vw;
+        left: 35vw;
+    }
+
+    .campuslands p {
+        position: absolute;
+        top: 167vw;
+        left: 35vw;
+    }
+
+    #cacao {
+        position: absolute;
+        width: 20vw;
+        top: 180vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .florCacao h1 {
+        position: absolute;
+        top: 179vw;
+        left: 35vw;
+    }
+
+    .florCacao p {
+        position: absolute;
+        top: 182vw;
+        left: 35vw;
+    }
+
+    #universitario {
+        position: absolute;
+        width: 20vw;
+        top: 195vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .elUniversitario h1 {
+        position: absolute;
+        top: 194vw;
+        left: 35vw;
+    }
+
+    .elUniversitario p {
+        position: absolute;
+        top: 197vw;
+        left: 35vw;
+    }
+
+    .projects h1 {
+        font-size: 1.5vw;
+        font-family: PoppinsBold;
+        color: white;
+    }
+
+    .projects p {
+        font-size: 1vw;
+        font-family: RobotoRegular;
+        color: white;
+    }
+
+    #spacex:hover, #campus:hover, #cacao:hover, #universitario:hover {
+        width: 21vw;
+    }
+
+    .languajes1 {
+        position: absolute;
+        display: flex;
+        gap: 1vw;
+        top: 158vw;
+        left: 35vw;
+    }
+
+    .languajes2 {
+        position: absolute;
+        top: 171.5vw;
+        left: 35vw;
+    }
+
+    .languajes3 {
+        position: absolute;
+        top: 189vw;
+        left: 35vw;
+    }
+
+    .languajes4 {
+        position: absolute;
+        top: 201.5vw;
+        left: 35vw;
+    }
+
+    .javascript, .html5, .css3, .py, .mysql {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6vw;
+        height: 2vw;
+        border: 0.1vw solid white;
+        border-radius: 1vw;
+        color: white;
+        font-family: RobotoLight;
+        font-size: 0.8vw;
+    }
+
+    #contactame {
+        position: absolute;
+        top: 210vw;
+        left: 10vw;
+        color: white;
+        font-family: RobotoBold;
+        font-size: 2vw;
+    }
+
+    .tablita {
+        position: absolute;
+        top: 215vw;
+        left: 10vw;
+        display: grid;
+        grid-template-columns: 5fr 5fr 5fr; 
+        width: 80vw;
+        height: auto;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
+
+    .casilla {
+        font-family: RobotoRegular;
+        font-size: 1vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
+
+    .casilla:hover {
+        background-color: #0097B2;
+    }
+
+    .casilla img {
+        width: 3vw;
+    }
+
+    .casilla a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #correo {
+        position: absolute;
+        top: 225vw;
+        left: 10vw;
+        font-family: RobotoBold;
+        font-size: 1.5vw;
+        color: white;
+    }
+
+    #adress {
+        position: absolute;
+        top: 227vw;
+        left: 10vw;
+        font-family: RobotoLight;
+        font-size: 1.5vw;
+        color: white;
+    }
+
+    .footer {
+        position: absolute;
+        color: white;
+        font-family: RobotoLight;
+        font-size: 0.8vw;
+        left: 37vw;
+        top: 238vw;
+    }
+
 }
 
-.container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 230vw;
-    background: linear-gradient(to bottom, #14202B, #1A191E);
+@media (width >= 1025px) and (width <= 1280px) {
+    
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #home {
+        min-height: 100vh;
+    }
+
+    #about {
+        min-height: 90vh;
+    }
+
+    #expertise {
+        min-height: 80vh;
+    }
+
+    #projects {
+        min-height: 100vh;
+    }
+
+    #contact {
+        min-height: 20vh;
+    }
+
+    .container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 270vw;
+        background: linear-gradient(to bottom, #14202B, #1A191E);
+    }
+
+    #marca {
+        position: absolute;
+        top: 1vw;
+        left: 2vw;
+        font-family: PoppinsMedium;
+        font-size: 2vw;
+        color: white;
+    }
+
+    #marca span {
+        color: #0097B2;
+    }
+
+    .sidebar {
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1vw;
+        top: 25vw;
+        left: 2vw;
+        width: 4vw;
+        height: 23vw;
+        background-color: #14202B;
+        box-shadow: 0vw 0vw 1vw 1px #0c424b;
+        border-radius: 0.5vw;
+    }
+
+    .sidebar svg {
+        width: 2.5vw;
+        fill: #3F3A3A;
+        transition: 1s;
+    }
+
+    .sidebar svg:hover {
+        width: 3vw;
+        fill: #0097B2;
+    }
+
+    #avatar {
+        position: absolute;
+        top: 6vw;
+        left: 20vw;
+        width: 60vw;
+        opacity: 0.5;
+        z-index: 1;
+    }
+
+    #nombre {
+        position: absolute;
+        top: 22vw;
+        left: 15vw;
+        font-family: PoppinsBold;
+        font-size: 8vw;
+        font-weight: 600;
+        color: white;
+    }
+
+    #subtitulo {
+        position: absolute;
+        top: 37vw;
+        left: 28vw;
+        font-family: PoppinsMedium;
+        font-size: 1.7vw;
+        color: white;
+    }
+
+    #aboutme {
+        position: absolute;
+        top: 71vw;
+        left: 10vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 4vw;
+    }
+
+    #AboutMe {
+        position: absolute;
+        top: 80vw;
+        left: 10vw;
+        font-family: RobotoMedium;
+        font-size: 1.5vw;
+        color: white;
+    }
+
+    #cohete {
+        position: absolute;
+        font-size: 18vw;
+        top: 58vw;
+        left: 70vw;
+    }
+
+    #contecnico {
+        position: absolute;
+        top: 110vw;
+        left: 23vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 4vw;
+    }
+
+    .tabla {
+        position: absolute;
+        top: 125vw;
+        left: 10vw;
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        width: 80vw;
+        height: auto;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
+
+    .header {
+        font-family: RobotoRegular;
+        font-size: 1.5vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
+
+    .header span {
+        font-family: RobotoBold;
+        font-size: 2vw;
+    }
+
+    .logos svg {
+        width: 7vw;
+        fill: #3F3A3A;
+    }
+
+    #java {
+        position: absolute;
+        top: 137vw;
+        left: 6vw;
+    }
+
+    #python {
+        position: absolute;
+        top: 120vw;
+        left: 41vw;
+    }
+
+    #html {
+        position: absolute;
+        top: 120vw;
+        left: 86vw;
+    }
+
+    #css {
+        position: absolute;
+        top: 139vw;
+        left: 52vw;
+    }
+
+    #post {
+        position: absolute;
+        top: 148vw;
+        left: 41vw;
+    }
+
+    #js {
+        position: absolute;
+        top: 164vw;
+        left: 6vw;
+    }
+
+    #proyecto {
+        position: absolute;
+        top: 168vw;
+        left: 40vw;
+        font-family: PoppinsBold;
+        font-size: 4vw;
+        color: white;
+    }
+
+    #spacex {
+        position: absolute;
+        width: 20vw;
+        top: 180vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .space h1 {
+        position: absolute;
+        top: 179vw;
+        left: 35vw;
+    }
+
+    .space p {
+        position: absolute;
+        top: 182vw;
+        left: 35vw;
+    }
+
+    #campus {
+        position: absolute;
+        width: 20vw;
+        top: 195vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .campuslands h1 {
+        position: absolute;
+        top: 194vw;
+        left: 35vw;
+    }
+
+    .campuslands p {
+        position: absolute;
+        top: 197vw;
+        left: 35vw;
+    }
+
+    #cacao {
+        position: absolute;
+        width: 20vw;
+        top: 210vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .florCacao h1 {
+        position: absolute;
+        top: 209vw;
+        left: 35vw;
+    }
+
+    .florCacao p {
+        position: absolute;
+        top: 212vw;
+        left: 35vw;
+    }
+
+    #universitario {
+        position: absolute;
+        width: 20vw;
+        top: 225vw;
+        left: 10vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .elUniversitario h1 {
+        position: absolute;
+        top: 224vw;
+        left: 35vw;
+    }
+
+    .elUniversitario p {
+        position: absolute;
+        top: 227vw;
+        left: 35vw;
+    }
+
+    .projects h1 {
+        font-size: 1.5vw;
+        font-family: PoppinsBold;
+        color: white;
+    }
+
+    .projects p {
+        font-size: 1vw;
+        font-family: RobotoRegular;
+        color: white;
+    }
+
+    #spacex:hover, #campus:hover, #cacao:hover, #universitario:hover {
+        width: 21vw;
+    }
+
+    .languajes1 {
+        position: absolute;
+        display: flex;
+        gap: 1vw;
+        top: 188vw;
+        left: 35vw;
+    }
+
+    .languajes2 {
+        position: absolute;
+        top: 201.5vw;
+        left: 35vw;
+    }
+
+    .languajes3 {
+        position: absolute;
+        top: 219vw;
+        left: 35vw;
+    }
+
+    .languajes4 {
+        position: absolute;
+        top: 231.5vw;
+        left: 35vw;
+    }
+
+    .javascript, .html5, .css3, .py, .mysql {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6vw;
+        height: 2vw;
+        border: 0.1vw solid white;
+        border-radius: 1vw;
+        color: white;
+        font-family: RobotoLight;
+        font-size: 0.8vw;
+    }
+
+    #contactame {
+        position: absolute;
+        top: 240vw;
+        left: 10vw;
+        color: white;
+        font-family: RobotoBold;
+        font-size: 2vw;
+    }
+
+    .tablita {
+        position: absolute;
+        top: 245vw;
+        left: 10vw;
+        display: grid;
+        grid-template-columns: 5fr 5fr 5fr; 
+        width: 80vw;
+        height: auto;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
+
+    .casilla {
+        font-family: RobotoRegular;
+        font-size: 1vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
+
+    .casilla:hover {
+        background-color: #0097B2;
+    }
+
+    .casilla img {
+        width: 3vw;
+    }
+
+    .casilla a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #correo {
+        position: absolute;
+        top: 255vw;
+        left: 10vw;
+        font-family: RobotoBold;
+        font-size: 1.5vw;
+        color: white;
+    }
+
+    #adress {
+        position: absolute;
+        top: 257vw;
+        left: 10vw;
+        font-family: RobotoLight;
+        font-size: 1.5vw;
+        color: white;
+    }
+
+    .footer {
+        position: absolute;
+        color: white;
+        font-family: RobotoLight;
+        font-size: 0.8vw;
+        left: 37vw;
+        top: 268vw;
+    }
+
 }
 
-#marca {
-    position: absolute;
-    top: 1vw;
-    left: 2vw;
-    font-family: PoppinsMedium;
-    font-size: 2vw;
-    color: white;
+@media (width >= 768px) and (width <= 1024px) {
+    
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #home {
+        min-height: 100vh;
+    }
+
+    #about {
+        min-height: 90vh;
+    }
+
+    #expertise {
+        min-height: 80vh;
+    }
+
+    #projects {
+        min-height: 100vh;
+    }
+
+    #contact {
+        min-height: 20vh;
+    }
+
+    .container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 635vw;
+        background: linear-gradient(to bottom, #14202B, #1A191E);
+    }
+
+    #marca {
+        position: absolute;
+        top: 1vw;
+        left: 10vw;
+        font-family: PoppinsMedium;
+        font-size: 2vw;
+        color: white;
+    }
+
+    #marca span {
+        color: #0097B2;
+    }
+
+    .sidebar {
+        position: fixed;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10vw;
+        top: 20vw;
+        left: 2vw;
+        width: 5vw;
+        height: 90vw;
+        background-color: #14202B;
+        box-shadow: 0vw 0vw 1vw 1px #0c424b;
+        border-radius: 0.5vw;
+    }
+
+    .sidebar svg {
+        width: 5vw;
+        fill: #3F3A3A;
+        transition: 1s;
+    }
+
+    .sidebar svg:hover {
+        width: 3vw;
+        fill: #0097B2;
+    }
+
+    #avatar {
+        position: absolute;
+        top: 6vw;
+        left: 20vw;
+        width: 60vw;
+        opacity: 0.5;
+        z-index: 1;
+    }
+
+    #nombre {
+        position: absolute;
+        top: 22vw;
+        left: 15vw;
+        font-family: PoppinsBold;
+        font-size: 8vw;
+        font-weight: 600;
+        color: white;
+    }
+
+    #subtitulo {
+        position: absolute;
+        top: 37vw;
+        left: 28vw;
+        font-family: PoppinsMedium;
+        font-size: 1.7vw;
+        color: white;
+    }
+
+    #aboutme {
+        position: absolute;
+        top: 71vw;
+        left: 10vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 6vw;
+    }
+
+    #AboutMe {
+        position: absolute;
+        top: 83vw;
+        left: 10vw;
+        font-family: RobotoMedium;
+        font-size: 2.5vw;
+        color: white;
+    }
+
+    #cohete {
+        display: none;
+    }
+
+    #contecnico {
+        position: absolute;
+        top: 130vw;
+        left: 26vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 4vw;
+    }
+
+    .tabla {
+        position: absolute;
+        top: 145vw;
+        left: 30vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 40vw;
+        height: auto;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
+
+    .header {
+        font-family: RobotoRegular;
+        font-size: 3vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
+
+    .header span {
+        font-family: RobotoBold;
+        font-size: 3.5vw;
+    }
+
+    .logos svg {
+        width: 10vw;
+        fill: #3F3A3A;
+    }
+
+    #java {
+        position: absolute;
+        top: 149vw;
+        left: 30vw;
+    }
+
+    #python {
+        position: absolute;
+        top: 150vw;
+        left: 59vw;
+    }
+
+    #html {
+        position: absolute;
+        top: 226vw;
+        left: 60vw;
+    }
+
+    #css {
+        position: absolute;
+        top: 238vw;
+        left: 29vw;
+    }
+
+    #post {
+        position: absolute;
+        top: 265vw;
+        left: 30vw;
+    }
+
+    #js {
+        display: none;
+    }
+
+    #proyecto {
+        position: absolute;
+        top: 315vw;
+        left: 40vw;
+        font-family: PoppinsBold;
+        font-size: 4vw;
+        color: white;
+    }
+
+    #spacex {
+        position: absolute;
+        width: 50vw;
+        top: 340vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .space h1 {
+        display: none;
+    }
+
+    #campus {
+        position: absolute;
+        width: 50vw;
+        top: 380vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .campuslands h1 {
+        display: none;
+    }
+
+    #cacao {
+        position: absolute;
+        width: 50vw;
+        top: 420vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .florCacao h1 {
+        display: none;
+    }
+
+    #universitario {
+        position: absolute;
+        width: 50vw;
+        top: 460vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .elUniversitario h1 {
+        display: none;
+    }
+
+    .projects p {
+        display: none;
+    }
+
+    .languajes1 {
+        display: none;
+    }
+
+    .languajes2 {
+        display: none;
+    }
+
+    .languajes3 {
+        display: none;
+    }
+
+    .languajes4 {
+        display: none;
+    }
+
+    #contactame {
+        position: absolute;
+        top: 495vw;
+        left: 10vw;
+        color: white;
+        font-family: RobotoBold;
+        font-size: 4vw;
+    }
+
+    .tablita {
+        position: absolute;
+        top: 510vw;
+        left: 30vw;
+        display: grid;
+        grid-template-columns: 1fr; 
+        width: 40vw;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
+
+    .casilla {
+        height: 20vw;
+        font-family: RobotoRegular;
+        font-size: 1vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
+
+    .casilla:hover {
+        background-color: #0097B2;
+    }
+
+    .casilla img {
+        width: 10vw;
+    }
+    .casilla p {
+        font-size: 3vw;
+    }
+
+    .casilla a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #correo {
+        position: absolute;
+        top: 605vw;
+        left: 10vw;
+        font-family: RobotoBold;
+        font-size: 4vw;
+        color: white;
+    }
+
+    #adress {
+        position: absolute;
+        top: 612vw;
+        left: 10vw;
+        font-family: RobotoLight;
+        font-size: 3vw;
+        color: white;
+    }
+
+    .footer {
+        position: absolute;
+        color: white;
+        font-family: RobotoLight;
+        font-size: 1vw;
+        left: 33vw;
+        top: 630vw;
+    }
+
 }
 
-#marca span {
-    color: #0097B2;
+@media (width >= 481px) and (width <= 767px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 790vw;
+        background: linear-gradient(to bottom, #14202B, #1A191E);
+    }
+
+    #marca {
+        position: absolute;
+        top: 1vw;
+        left: 2vw;
+        font-family: PoppinsMedium;
+        font-size: 2.5vw;
+        color: white;
+    }
+
+    #marca span {
+        color: #0097B2;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .sidebar svg {
+        display: none;
+    }
+
+    #avatar {
+        position: absolute;
+        top: 6vw;
+        left: 5vw;
+        width: 90vw;
+        opacity: 0.5;
+        z-index: 1;
+    }
+
+    #nombre {
+        position: absolute;
+        text-align: center;
+        top: 65vw;
+        left: 2vw;
+        font-family: PoppinsBold;
+        font-size: 15vw;
+        font-weight: 600;
+        color: white;
+    }
+
+    #subtitulo {
+        position: absolute;
+        top: 120vw;
+        left: 18vw;
+        font-family: PoppinsMedium;
+        font-size: 2.5vw;
+        color: white;
+    }
+
+    #aboutme {
+        position: absolute;
+        top: 160vw;
+        left: 10vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 7vw;
+    }
+
+    #AboutMe {
+        position: absolute;
+        top: 175vw;
+        left: 10vw;
+        font-family: RobotoMedium;
+        font-size: 2.5vw;
+        color: white;
+    }
+
+    #cohete {
+        display: none;
+    }
+
+    #contecnico {
+        position: absolute;
+        top: 225vw;
+        left: 22vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 4.5vw;
+    }
+
+    .tabla {
+        position: absolute;
+        top: 240vw;
+        left: 30vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 40vw;
+        height: auto;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
+
+    .header {
+        font-family: RobotoRegular;
+        font-size: 3vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
+
+    .header span {
+        font-family: RobotoBold;
+        font-size: 3.5vw;
+    }
+
+    .logos svg {
+        width: 10vw;
+        fill: #3F3A3A;
+        display: none;
+    }
+
+    #java {
+        position: absolute;
+        top: 149vw;
+        left: 30vw;
+    }
+
+    #python {
+        position: absolute;
+        top: 150vw;
+        left: 59vw;
+    }
+
+    #html {
+        position: absolute;
+        top: 226vw;
+        left: 60vw;
+    }
+
+    #css {
+        position: absolute;
+        top: 238vw;
+        left: 29vw;
+    }
+
+    #post {
+        position: absolute;
+        top: 265vw;
+        left: 30vw;
+    }
+
+    #js {
+        display: none;
+    }
+
+    #proyecto {
+        position: absolute;
+        top: 415vw;
+        left: 39vw;
+        font-family: PoppinsBold;
+        font-size: 4.5vw;
+        color: white;
+    }
+
+    #spacex {
+        position: absolute;
+        width: 50vw;
+        top: 435vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .space h1 {
+        display: none;
+    }
+
+    #campus {
+        position: absolute;
+        width: 50vw;
+        top: 475vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .campuslands h1 {
+        display: none;
+    }
+
+    #cacao {
+        position: absolute;
+        width: 50vw;
+        top: 515vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .florCacao h1 {
+        display: none;
+    }
+
+    #universitario {
+        position: absolute;
+        width: 50vw;
+        top: 555vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
+
+    .elUniversitario h1 {
+        display: none;
+    }
+
+    .projects p {
+        display: none;
+    }
+
+    .languajes1 {
+        display: none;
+    }
+
+    .languajes2 {
+        display: none;
+    }
+
+    .languajes3 {
+        display: none;
+    }
+
+    .languajes4 {
+        display: none;
+    }
+
+    #contactame {
+        position: absolute;
+        top: 600vw;
+        left: 10vw;
+        color: white;
+        font-family: RobotoBold;
+        font-size: 4vw;
+    }
+
+    .tablita {
+        position: absolute;
+        top: 615vw;
+        left: 20vw;
+        display: grid;
+        grid-template-columns: 1fr; 
+        width: 60vw;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
+
+    .casilla {
+        height: 30vw;
+        font-family: RobotoRegular;
+        font-size: 1vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
+
+    .casilla:hover {
+        background-color: #0097B2;
+    }
+
+    .casilla img {
+        width: 20vw;
+    }
+    .casilla p {
+        font-size: 3.5vw;
+    }
+
+    .casilla a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #correo {
+        position: absolute;
+        top: 745vw;
+        left: 10vw;
+        font-family: RobotoBold;
+        font-size: 4.5vw;
+        color: white;
+    }
+
+    #adress {
+        position: absolute;
+        top: 755vw;
+        left: 10vw;
+        font-family: RobotoLight;
+        font-size: 3.5vw;
+        color: white;
+    }
+
+    .footer {
+        position: absolute;
+        color: white;
+        font-family: RobotoLight;
+        font-size: 2vw;
+        left: 18vw;
+        top: 785vw;
+    }
+
 }
 
-.sidebar {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1vw;
-    top: 15vw;
-    left: 2vw;
-    width: 3vw;
-    height: 16vw;
-    background-color: #14202B;
-    box-shadow: 0vw 0vw 1vw 1px #0c424b;
-    border-radius: 0.5vw;
-}
+@media (width >= 320px) and (width <= 480px) {
 
-.sidebar svg {
-    width: 1.5vw;
-    fill: #3F3A3A;
-    transition: 1s;
-}
+    html {
+        scroll-behavior: smooth;
+    }
 
-.sidebar svg:hover {
-    width: 2vw;
-    fill: #0097B2;
-}
+    .container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 790vw;
+        background: linear-gradient(to bottom, #14202B, #1A191E);
+    }
 
-#avatar {
-    position: absolute;
-    top: 2vw;
-    left: 30vw;
-    width: 40vw;
-    opacity: 0.5;
-    z-index: 1;
-}
+    #marca {
+        position: absolute;
+        top: 1vw;
+        left: 2vw;
+        font-family: PoppinsMedium;
+        font-size: 2.5vw;
+        color: white;
+    }
 
-#nombre {
-    position: absolute;
-    top: 12vw;
-    left: 20vw;
-    font-family: PoppinsBold;
-    font-size: 7vw;
-    font-weight: 600;
-    color: white;
-}
+    #marca span {
+        color: #0097B2;
+    }
 
-#subtitulo {
-    position: absolute;
-    top: 25vw;
-    left: 30vw;
-    font-family: PoppinsMedium;
-    font-size: 1.5vw;
-    color: white;
-}
+    .sidebar {
+        display: none;
+    }
 
-#aboutme {
-    position: absolute;
-    top: 50vw;
-    left: 10vw;
-    color: white;
-    font-family: PoppinsBold;
-    font-size: 4vw;
-}
+    .sidebar svg {
+        display: none;
+    }
 
-#AboutMe {
-    position: absolute;
-    top: 58vw;
-    left: 10vw;
-    font-family: RobotoMedium;
-    font-size: 1.5vw;
-    color: white;
-}
+    #avatar {
+        position: absolute;
+        top: 6vw;
+        left: 5vw;
+        width: 90vw;
+        opacity: 0.5;
+        z-index: 1;
+    }
 
-#cohete {
-    position: absolute;
-    font-size: 15vw;
-    top: 45vw;
-    left: 70vw;
-}
+    #nombre {
+        position: absolute;
+        text-align: center;
+        top: 65vw;
+        left: 2vw;
+        font-family: PoppinsBold;
+        font-size: 15vw;
+        font-weight: 600;
+        color: white;
+    }
 
-#contecnico {
-    position: absolute;
-    top: 90vw;
-    left: 23vw;
-    color: white;
-    font-family: PoppinsBold;
-    font-size: 4vw;
-}
+    #subtitulo {
+        position: absolute;
+        top: 120vw;
+        left: 18vw;
+        font-family: PoppinsMedium;
+        font-size: 2.5vw;
+        color: white;
+    }
 
-.tabla {
-    position: absolute;
-    top: 105vw;
-    left: 10vw;
-    display: grid;
-    grid-template-columns: 5fr 5fr 5fr; 
-    width: 80vw;
-    height: auto;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    gap: 10vw;
-}
+    #aboutme {
+        position: absolute;
+        top: 160vw;
+        left: 10vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 7vw;
+    }
 
-.header {
-    font-family: RobotoRegular;
-    font-size: 1vw;
-    color: white;
-    border: 0.1vw solid white;
-    padding: 1vw;
-}
+    #AboutMe {
+        position: absolute;
+        top: 175vw;
+        left: 10vw;
+        font-family: RobotoMedium;
+        font-size: 2.5vw;
+        color: white;
+    }
 
-.header span {
-    font-family: RobotoBold;
-    font-size: 1.5vw;
-}
+    #cohete {
+        display: none;
+    }
 
-.logos svg {
-    width: 8vw;
-    fill: #3F3A3A;
-}
+    #contecnico {
+        position: absolute;
+        top: 225vw;
+        left: 22vw;
+        color: white;
+        font-family: PoppinsBold;
+        font-size: 4.5vw;
+    }
 
-#java {
-    position: absolute;
-    top: 116vw;
-    left: 6vw;
-}
+    .tabla {
+        position: absolute;
+        top: 240vw;
+        left: 30vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 40vw;
+        height: auto;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
 
-#python {
-    position: absolute;
-    top: 100vw;
-    left: 25vw;
-}
+    .header {
+        font-family: RobotoRegular;
+        font-size: 3vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
 
-#html {
-    position: absolute;
-    top: 100vw;
-    left: 55vw;
-}
+    .header span {
+        font-family: RobotoBold;
+        font-size: 3.5vw;
+    }
 
-#css {
-    position: absolute;
-    top: 116vw;
-    left: 36vw;
-}
+    .logos svg {
+        width: 10vw;
+        fill: #3F3A3A;
+        display: none;
+    }
 
-#post {
-    position: absolute;
-    top: 100vw;
-    left: 85vw;
-}
+    #java {
+        position: absolute;
+        top: 149vw;
+        left: 30vw;
+    }
 
-#js {
-    position: absolute;
-    top: 116vw;
-    left: 65vw;
-}
+    #python {
+        position: absolute;
+        top: 150vw;
+        left: 59vw;
+    }
 
-#proyecto {
-    position: absolute;
-    top: 128vw;
-    left: 37vw;
-    font-family: PoppinsBold;
-    font-size: 4vw;
-    color: white;
-}
+    #html {
+        position: absolute;
+        top: 226vw;
+        left: 60vw;
+    }
 
-#spacex {
-    position: absolute;
-    width: 20vw;
-    top: 140vw;
-    left: 10vw;
-    border: 0.1vw solid white;
-    border-radius: 0.5vw;
-    transition: 1s;
-}
+    #css {
+        position: absolute;
+        top: 238vw;
+        left: 29vw;
+    }
 
-.space h1 {
-    position: absolute;
-    top: 139vw;
-    left: 35vw;
-}
+    #post {
+        position: absolute;
+        top: 265vw;
+        left: 30vw;
+    }
 
-.space p {
-    position: absolute;
-    top: 142vw;
-    left: 35vw;
-}
+    #js {
+        display: none;
+    }
 
-#campus {
-    position: absolute;
-    width: 20vw;
-    top: 155vw;
-    left: 10vw;
-    border: 0.1vw solid white;
-    border-radius: 0.5vw;
-    transition: 1s;
-}
+    #proyecto {
+        position: absolute;
+        top: 415vw;
+        left: 39vw;
+        font-family: PoppinsBold;
+        font-size: 4.5vw;
+        color: white;
+    }
 
-.campuslands h1 {
-    position: absolute;
-    top: 154vw;
-    left: 35vw;
-}
+    #spacex {
+        position: absolute;
+        width: 50vw;
+        top: 435vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
 
-.campuslands p {
-    position: absolute;
-    top: 157vw;
-    left: 35vw;
-}
+    .space h1 {
+        display: none;
+    }
 
-#cacao {
-    position: absolute;
-    width: 20vw;
-    top: 170vw;
-    left: 10vw;
-    border: 0.1vw solid white;
-    border-radius: 0.5vw;
-    transition: 1s;
-}
+    #campus {
+        position: absolute;
+        width: 50vw;
+        top: 475vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
 
-.florCacao h1 {
-    position: absolute;
-    top: 169vw;
-    left: 35vw;
-}
+    .campuslands h1 {
+        display: none;
+    }
 
-.florCacao p {
-    position: absolute;
-    top: 172vw;
-    left: 35vw;
-}
+    #cacao {
+        position: absolute;
+        width: 50vw;
+        top: 515vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
 
-#universitario {
-    position: absolute;
-    width: 20vw;
-    top: 185vw;
-    left: 10vw;
-    border: 0.1vw solid white;
-    border-radius: 0.5vw;
-    transition: 1s;
-}
+    .florCacao h1 {
+        display: none;
+    }
 
-.elUniversitario h1 {
-    position: absolute;
-    top: 184vw;
-    left: 35vw;
-}
+    #universitario {
+        position: absolute;
+        width: 50vw;
+        top: 555vw;
+        left: 25vw;
+        border: 0.1vw solid white;
+        border-radius: 0.5vw;
+        transition: 1s;
+    }
 
-.elUniversitario p {
-    position: absolute;
-    top: 187vw;
-    left: 35vw;
-}
+    .elUniversitario h1 {
+        display: none;
+    }
 
-.projects h1 {
-    font-size: 1.5vw;
-    font-family: PoppinsBold;
-    color: white;
-}
+    .projects p {
+        display: none;
+    }
 
-.projects p {
-    font-size: 1vw;
-    font-family: RobotoRegular;
-    color: white;
-}
+    .languajes1 {
+        display: none;
+    }
 
-#spacex:hover, #campus:hover, #cacao:hover, #universitario:hover {
-    width: 21vw;
-}
+    .languajes2 {
+        display: none;
+    }
 
-.languajes1 {
-    position: absolute;
-    display: flex;
-    gap: 1vw;
-    top: 148vw;
-    left: 35vw;
-}
+    .languajes3 {
+        display: none;
+    }
 
-.languajes2 {
-    position: absolute;
-    top: 161.5vw;
-    left: 35vw;
-}
+    .languajes4 {
+        display: none;
+    }
 
-.languajes3 {
-    position: absolute;
-    top: 179vw;
-    left: 35vw;
-}
+    #contactame {
+        position: absolute;
+        top: 600vw;
+        left: 10vw;
+        color: white;
+        font-family: RobotoBold;
+        font-size: 4vw;
+    }
 
-.languajes4 {
-    position: absolute;
-    top: 191.5vw;
-    left: 35vw;
-}
+    .tablita {
+        position: absolute;
+        top: 615vw;
+        left: 20vw;
+        display: grid;
+        grid-template-columns: 1fr; 
+        width: 60vw;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+        gap: 10vw;
+    }
 
-.javascript, .html5, .css3, .py, .mysql {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 6vw;
-    height: 2vw;
-    border: 0.1vw solid white;
-    border-radius: 1vw;
-    color: white;
-    font-family: RobotoLight;
-    font-size: 0.8vw;
-}
+    .casilla {
+        height: 30vw;
+        font-family: RobotoRegular;
+        font-size: 1vw;
+        color: white;
+        border: 0.1vw solid white;
+        padding: 1vw;
+    }
 
-#contactame {
-    position: absolute;
-    top: 200vw;
-    left: 10vw;
-    color: white;
-    font-family: RobotoBold;
-    font-size: 2vw;
-}
+    .casilla:hover {
+        background-color: #0097B2;
+    }
 
-.tablita {
-    position: absolute;
-    top: 205vw;
-    left: 10vw;
-    display: grid;
-    grid-template-columns: 5fr 5fr 5fr; 
-    width: 80vw;
-    height: auto;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    gap: 10vw;
-}
+    .casilla img {
+        width: 20vw;
+    }
+    .casilla p {
+        font-size: 3.5vw;
+    }
 
-.casilla {
-    font-family: RobotoRegular;
-    font-size: 1vw;
-    color: white;
-    border: 0.1vw solid white;
-    padding: 1vw;
-}
+    .casilla a {
+        text-decoration: none;
+        color: white;
+    }
 
-.casilla img {
-    width: 3vw;
-}
+    #correo {
+        position: absolute;
+        top: 745vw;
+        left: 10vw;
+        font-family: RobotoBold;
+        font-size: 4.5vw;
+        color: white;
+    }
 
-.casilla a {
-    text-decoration: none;
-    color: white;
-}
+    #adress {
+        position: absolute;
+        top: 755vw;
+        left: 10vw;
+        font-family: RobotoLight;
+        font-size: 3.5vw;
+        color: white;
+    }
 
-#correo {
-    position: absolute;
-    top: 215vw;
-    left: 10vw;
-    font-family: RobotoBold;
-    font-size: 1.5vw;
-    color: white;
-}
+    .footer {
+        position: absolute;
+        color: white;
+        font-family: RobotoLight;
+        font-size: 2vw;
+        left: 18vw;
+        top: 785vw;
+    }
 
-#adress {
-    position: absolute;
-    top: 217vw;
-    left: 10vw;
-    font-family: RobotoLight;
-    font-size: 1.5vw;
-    color: white;
-}
-
-.footer {
-    position: absolute;
-    color: white;
-    font-family: RobotoLight;
-    font-size: 0.8vw;
-    left: 37vw;
-    top: 228vw;
 }
