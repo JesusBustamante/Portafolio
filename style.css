@@ -1484,30 +1484,35 @@
     }
 
     #java {
+        display: none;
         position: absolute;
         top: 149vw;
         left: 30vw;
     }
 
     #python {
+        display: none;
         position: absolute;
         top: 150vw;
         left: 59vw;
     }
 
     #html {
+        display: none;
         position: absolute;
         top: 226vw;
         left: 60vw;
     }
 
     #css {
+        display: none;
         position: absolute;
         top: 238vw;
         left: 29vw;
     }
 
     #post {
+        display: none;
         position: absolute;
         top: 265vw;
         left: 30vw;
